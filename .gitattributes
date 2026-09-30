@@ -1,0 +1,12 @@
+# Language detection rules
+yarn.lock linguist-generated
+
+*.map linguist-generated
+node_modules/* linguist-vendored  
+
+*.ico binary
+package-lock.json linguist-generated
+src/** linguist-detectable
+*.htm linguist-vendored
+*.html linguist-vendored
+# eof 03f457d4
